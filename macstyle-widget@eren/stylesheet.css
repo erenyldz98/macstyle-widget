@@ -1,0 +1,118 @@
+.dashboard-window {
+    background-color: rgba(30, 30, 30, 0.95);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.dashboard-content {
+    spacing: 15px;
+}
+
+/* Modül başlıkları için örnek stil */
+.module-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #eeeeee;
+    margin-bottom: 5px;
+}
+
+.clock-container {
+    background: rgba(25, 25, 25, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 26px;
+    padding: 20px 26px;
+}
+
+/* Yazı (İç Etiket) */
+.desktop-clock {
+    font-family: "Cantarell Bold", Sans-Serif;
+    font-size: 64px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.90);
+    letter-spacing: 2px;
+}
+
+.macstyle-container {
+    background: rgba(25, 25, 25, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 26px;
+    padding: 1px;
+    backdrop-filter: blur(2px);
+}
+
+.macstyle-gauge {
+    margin: 0px;
+}
+
+.weather-widget {
+    padding: 16px;
+
+    border-radius: 26px;
+
+    /* 🍎 beyaz cam efekti */
+    background-color: rgba(25, 25, 25, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.12);
+
+    min-width: 340;
+
+    color: #fff;
+}
+
+.weather-city {
+    font-size: 15px;
+    opacity: 0.65;
+    margin-bottom: 4px;
+}
+
+.weather-current {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.weather-days {
+    spacing: 24px;
+    orientation: horizontal;
+}
+
+.weather-day {
+    padding: 8px;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.weather-day:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+.weather-icon {
+    font-size: 18px;
+    opacity: 0.9;
+    filter: brightness(2) contrast(0.8);
+}
+.weather-date {
+    font-size: 11px;
+    opacity: 0.7;
+}
+
+.media-buttonski {
+    background-color: rgba(255, 255, 255, 0.1); /* Normal hali */
+    border-radius: 10px;
+    padding: 4px;
+    color: white;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.media-buttonski:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Üstüne gelince */
+}
+
+/* Tıkladığın an arkaplanın şeffaflaşması (Tepki) */
+.media-buttonski:active {
+    background-color: rgba(255, 255, 255, 0.05) !important; /* Basınca çok şeffaf olur */
+}

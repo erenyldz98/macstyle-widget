@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.macstyle-widget" path="/org/gnome/shell/extensions/macstyle-widget/">
+    
+    <key name="show-clock" type="b">
+      <default>true</default>
+      <summary>Saati Göster</summary>
+    </key>
+
+    <key name="show-sysmon" type="b">
+      <default>true</default>
+      <summary>Sistem Monitörünü Göster</summary>
+    </key>
+
+    <key name="show-weather" type="b">
+      <default>true</default>
+      <summary>Hava Durumunu Göster</summary>
+    </key>
+    
+        <key name="show-media" type="b">
+      <default>true</default>
+      <summary>Medyaları Göster</summary>
+    </key>
+
+  </schema>
+</schemalist>
